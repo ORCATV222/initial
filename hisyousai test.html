@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<form action="https://api.staticforms.xyz/submit" method="post">
+    <input type="hidden" name="accessKey" value="a531aef2-023d-45c0-9ef8-ef6a0fea14fd"> <!-- Required -->
+    <p><input type="hidden" name="subject" value="アンケート回答"></p>
+    <table border="1">
+        <tbody>
+            <tr>
+                <td>お名前(代表者)</td>
+                <td><input type="text" class="Form-Item-Input" name="name" size="40" maxlengh="20" placeholder="例）田中太郎"></td>
+            </tr>
+            <tr>
+                <td>メールアドレス</td>
+                <td><input type="text" name="email" size="40" maxlengh="40" placeholder="例）example@gmail.com"></td>
+            </tr>
+            <tr>
+                <td>性別</td>
+                <td><input type="radio" name="$sex" value="male">男
+                <input type="radio" name="$sex" value="female">女
+                <input type="radio" name="$sex" value="other">その他</td>
+            </tr>   
+            <tr>
+                <td>学年</td>
+                <td><input type="radio" name="$grade" value="first">1年
+                <input type="radio" name="$grede" value="second">2年
+                <input type="radio" name="$grede" value="third">3年</td>
+            </tr>
+            <tr>
+                <td>クラス</td>
+                <td><input type="radio" name="$class" value="A">A
+                <input type="radio" name="$class" value="B">B
+                <input type="radio" name="$class" value="C">C
+                <input type="radio" name="$class" value="D">D
+                <input type="radio" name="$class" value="E">E
+                <input type="radio" name="$class" value="F">F
+                <input type="radio" name="$class" value="G">G
+                <input type="radio" name="$class" value="H">H
+                </td>
+            </tr>
+            <tr>
+                <td>出席番号</td>
+                <td><select size ="1" name="$class number">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30">30</option>
+                <option value="31">31</option>
+                <option value="32">32</option>
+                <option value="33">33</option>
+                <option value="34">34</option>
+                <option value="35">35</option>
+                <option value="36">36</option>
+                <option value="37">37</option>
+                <option value="38">38</option>
+                <option value="39">39</option>
+                <option value="40">40</option>
+                </select>
+                </td>
+            </tr>
+            <tr>
+                <td>同行者の人数</td>
+                <td><input type="text" name="$number of people" size="10" maxlengh="10" placeholder="例）3人"></td>
+            </tr>
+        </tbody>
+    </table>
+    <div>*同行者は代表者を含みません。</div>
+    <hr>
+    閲覧を希望する団体
+    <table border="1">
+    <tbody>
+    <tr>
+    <td>第一公演</td>
+    <td>
+    <select size ="1" name="$first">
+    <option value="1A">1A</option>
+    <option value="1B">1B</option>
+    <option value="1C">1C</option>
+    <option value="1D">1D</option>
+    <option value="1E">1E</option>
+    <option value="1F">1F</option>
+    <option value="1G">1G</option>
+    <option value="1H">1H</option>
+    <option value="2A">2A</option>
+    <option value="2B">2B</option>
+    <option value="2C">2C</option>
+    <option value="2D">2D</option>
+    <option value="2E">2E</option>
+    <option value="2F">2F</option>
+    <option value="2G">2G</option>
+    <option value="2H">2H</option>
+    <option value="3A">3A</option>
+    <option value="3B">3B</option>
+    <option value="3C">3C</option>
+    <option value="3D">3D</option>
+    <option value="3E">3E</option>
+    <option value="3F">3F</option>
+    <option value="3G">3G</option>
+    <option value="3H">3H</option>
+    </select>
+    </td>
+    </tr>
+    <tr>
+    <td>第二公演</td>
+    <td>
+    <select size ="1" name="$second">
+    <option value="1A">1A</option>
+    <option value="1B">1B</option>
+    <option value="1C">1C</option>
+    <option value="1D">1D</option>
+    <option value="1E">1E</option>
+    <option value="1F">1F</option>
+    <option value="1G">1G</option>
+    <option value="1H">1H</option>
+    <option value="2A">2A</option>
+    <option value="2B">2B</option>
+    <option value="2C">2C</option>
+    <option value="2D">2D</option>
+    <option value="2E">2E</option>
+    <option value="2F">2F</option>
+    <option value="2G">2G</option>
+    <option value="2H">2H</option>
+    <option value="3A">3A</option>
+    <option value="3B">3B</option>
+    <option value="3C">3C</option>
+    <option value="3D">3D</option>
+    <option value="3E">3E</option>
+    <option value="3F">3F</option>
+    <option value="3G">3G</option>
+    <option value="3H">3H</option>
+    </select>
+    </td>
+    </tr>
+    <tr>
+    <td>第三公演</td>
+    <td>
+    <select size ="1" name="$third">
+    <option value="1A">1A</option>
+    <option value="1B">1B</option>
+    <option value="1C">1C</option>
+    <option value="1D">1D</option>
+    <option value="1E">1E</option>
+    <option value="1F">1F</option>
+    <option value="1G">1G</option>
+    <option value="1H">1H</option>
+    <option value="2A">2A</option>
+    <option value="2B">2B</option>
+    <option value="2C">2C</option>
+    <option value="2D">2D</option>
+    <option value="2E">2E</option>
+    <option value="2F">2F</option>
+    <option value="2G">2G</option>
+    <option value="2H">2H</option>
+    <option value="3A">3A</option>
+    <option value="3B">3B</option>
+    <option value="3C">3C</option>
+    <option value="3D">3D</option>
+    <option value="3E">3E</option>
+    <option value="3F">3F</option>
+    <option value="3G">3G</option>
+    <option value="3H">3H</option>
+    </select>
+    </td>
+    </tr>
+    <tr>
+    <td>第四公演</td>
+    <td>
+    <select size ="1" name="$fourth">
+    <option value="1A">1A</option>
+    <option value="1B">1B</option>
+    <option value="1C">1C</option>
+    <option value="1D">1D</option>
+    <option value="1E">1E</option>
+    <option value="1F">1F</option>
+    <option value="1G">1G</option>
+    <option value="1H">1H</option>
+    <option value="2A">2A</option>
+    <option value="2B">2B</option>
+    <option value="2C">2C</option>
+    <option value="2D">2D</option>
+    <option value="2E">2E</option>
+    <option value="2F">2F</option>
+    <option value="2G">2G</option>
+    <option value="2H">2H</option>
+    <option value="3A">3A</option>
+    <option value="3B">3B</option>
+    <option value="3C">3C</option>
+    <option value="3D">3D</option>
+    <option value="3E">3E</option>
+    <option value="3F">3F</option>
+    <option value="3G">3G</option>
+    <option value="3H">3H</option>
+    </select>
+    </td>
+    </tr>
+    <tr>
+    <td>第五公演</td>
+    <td>
+    <select size ="1" name="$fifth">
+    <option value="1A">1A</option>
+    <option value="1B">1B</option>
+    <option value="1C">1C</option>
+    <option value="1D">1D</option>
+    <option value="1E">1E</option>
+    <option value="1F">1F</option>
+    <option value="1G">1G</option>
+    <option value="1H">1H</option>
+    <option value="2A">2A</option>
+    <option value="2B">2B</option>
+    <option value="2C">2C</option>
+    <option value="2D">2D</option>
+    <option value="2E">2E</option>
+    <option value="2F">2F</option>
+    <option value="2G">2G</option>
+    <option value="2H">2H</option>
+    <option value="3A">3A</option>
+    <option value="3B">3B</option>
+    <option value="3C">3C</option>
+    <option value="3D">3D</option>
+    <option value="3E">3E</option>
+    <option value="3F">3F</option>
+    <option value="3G">3G</option>
+    <option value="3H">3H</option>
+    </select>
+    </td>
+    </tr>
+    </tbody>
+    </table>
+    <hr>
+    ご意見・ご要望<br>
+    <textarea name="$comment" cols="50" rows="6" placeholder="ご意見・ご要望がありましたらお書きください。">
+    </textarea>
+    <div>*300文字以内</div>
+    <hr><br>
+    <input type="submit" value="送信">
+    <input type="reset" value="再設定">
+</form>
+</body>
+</html>
